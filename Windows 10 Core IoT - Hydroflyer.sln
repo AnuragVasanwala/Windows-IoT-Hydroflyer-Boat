@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway and ESP Sketch", "Gateway and ESP Sketch", "{654D569A-683D-4C8A-BAF9-18C34174D788}"
+	ProjectSection(SolutionItems) = preProject
+		ESP8266_01_Sketch.ino = ESP8266_01_Sketch.ino
+		Gateway_Sketch.ino = Gateway_Sketch.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsIoT Sketch", "WindowsIoT Sketch", "{B107A6CB-DF85-494A-A514-7B7CD4933FDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoWiringWIoT", "ArduinoWiringWIoT\ArduinoWiringWIoT.vcxproj", "{E306802A-3035-4C66-85D5-40309D9CA161}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Phone", "Windows Phone", "{A4D93EAF-CE70-4E9F-87F6-E8E369AB3D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydroflyer Dashboard", "Hydroflyer Dashboard\Hydroflyer Dashboard.csproj", "{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Arduino UNO|Any CPU = Arduino UNO|Any CPU
+		Arduino UNO|ARM = Arduino UNO|ARM
+		Arduino UNO|Nano = Arduino UNO|Nano
+		Arduino UNO|x64 = Arduino UNO|x64
+		Arduino UNO|x86 = Arduino UNO|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Nano = Debug|Nano
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Nano = Release|Nano
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Any CPU.ActiveCfg = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Any CPU.Build.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Any CPU.Deploy.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|ARM.ActiveCfg = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|ARM.Build.0 = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|ARM.Deploy.0 = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Nano.ActiveCfg = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Nano.Build.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|Nano.Deploy.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x64.ActiveCfg = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x64.Build.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x64.Deploy.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x86.ActiveCfg = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x86.Build.0 = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Arduino UNO|x86.Deploy.0 = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|ARM.Build.0 = Debug|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|Nano.ActiveCfg = Debug|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x64.ActiveCfg = Debug|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x64.Build.0 = Debug|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x64.Deploy.0 = Debug|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x86.ActiveCfg = Debug|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x86.Build.0 = Debug|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Debug|x86.Deploy.0 = Debug|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|ARM.ActiveCfg = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|ARM.Build.0 = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|ARM.Deploy.0 = Release|ARM
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|Nano.ActiveCfg = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x64.ActiveCfg = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x64.Build.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x64.Deploy.0 = Release|x64
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x86.ActiveCfg = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x86.Build.0 = Release|Win32
+		{E306802A-3035-4C66-85D5-40309D9CA161}.Release|x86.Deploy.0 = Release|Win32
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Any CPU.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Any CPU.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Any CPU.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|ARM.ActiveCfg = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|ARM.Build.0 = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|ARM.Deploy.0 = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Nano.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Nano.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|Nano.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x64.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x64.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x64.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x86.ActiveCfg = Release|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x86.Build.0 = Release|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Arduino UNO|x86.Deploy.0 = Release|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|ARM.Build.0 = Debug|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Nano.ActiveCfg = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Nano.Build.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|Nano.Deploy.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x64.Build.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x86.ActiveCfg = Debug|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x86.Build.0 = Debug|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Debug|x86.Deploy.0 = Debug|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|ARM.ActiveCfg = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|ARM.Build.0 = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|ARM.Deploy.0 = Release|ARM
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Nano.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Nano.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|Nano.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x64.ActiveCfg = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x64.Build.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x64.Deploy.0 = Release|Any CPU
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x86.ActiveCfg = Release|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x86.Build.0 = Release|x86
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E306802A-3035-4C66-85D5-40309D9CA161} = {B107A6CB-DF85-494A-A514-7B7CD4933FDB}
+		{E40724C5-75C4-4FB5-A8B8-2F131ACDDD23} = {A4D93EAF-CE70-4E9F-87F6-E8E369AB3D09}
+	EndGlobalSection
+EndGlobal

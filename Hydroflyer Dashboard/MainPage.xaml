@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="HydroflyerArgumentsashboard.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HydroflyerArgumentsashboard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Maps:MapControl Name="MyMap" Heading="45"
+                         ZoomLevel="20"
+                         MapServiceToken="AsCeKT1XO-V0UJ1ctO_irkEWzM-fsw1vSqtVKXcz76xCtyCut0KnzusfID7qtM51"/>
+
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal">
+                <Image Name="Img_LT"  Height="48" Margin="10,0,2,2" Source="Resources/Images/Maneuver/Img_LT0.png" />
+                <Image Name="Img_FW"  Height="48" Margin="2,0,2,2" Source="Resources/Images/Maneuver/Img_FW0.png" />
+                <Image Name="Img_RT" Height="48" Margin="2,0,10,2" Source="Resources/Images/Maneuver/Img_RT0.png" />
+            </StackPanel>
+            <Image Name="Img_Stop"  Height="48" Margin="0,2,0,10" Source="Resources/Images/Maneuver/Img_Stop1.png" VerticalAlignment="Top"/>
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Image Name="Img_LinkStatus"  Height="48" Margin="0,15,0,0" Source="Resources/Images/Img_NoLink.png" VerticalAlignment="Top"/>
+            <StackPanel Orientation="Vertical" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Image Name="Img_GPSStatus"  Height="48" Margin="5" Source="Resources/Images/Img_GPS_0.png" />
+                <Image Name="Img_BoatStatus"  Height="48" Margin="5" Source="Resources/Images/Img_BoatOutOfWater.png" />
+                <Image Name="Img_LeakStatus" Height="48" Margin="5" Source="Resources/Images/Img_NoLeak.png" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
